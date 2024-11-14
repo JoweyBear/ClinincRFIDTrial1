@@ -49,7 +49,7 @@ public class ConsultationFrame extends javax.swing.JFrame {
         rcrd = new Util.CustomButton();
         ntfy = new Util.CustomButton();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
         jPanel1.setBackground(new java.awt.Color(184, 213, 241));
         jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(2, 62, 138), 2), "Consultation Details", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("absender", 2, 36))); // NOI18N

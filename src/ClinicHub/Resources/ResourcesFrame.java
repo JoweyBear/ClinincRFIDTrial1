@@ -49,7 +49,7 @@ public class ResourcesFrame extends javax.swing.JFrame {
         staff_id = new javax.swing.JComboBox<>();
         rcrd = new Util.CustomButton();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
         jPanel1.setBackground(new java.awt.Color(108, 186, 221));
         jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(3, 4, 94), 2), "Medical Supply", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("absender", 2, 36))); // NOI18N

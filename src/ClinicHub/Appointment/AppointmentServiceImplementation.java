@@ -72,7 +72,7 @@ public class AppointmentServiceImplementation implements AppointmentService {
             String visitPurpose = (String) ap.jTable1.getValueAt(dataRow, 3);
 
             String message = "Clinic Alert: " + name + ",("  + student_id + ")" + college + ", " + section + 
-                             " - Scheduled Appointment for " + visitPurpose + " at " + time + ".";
+                             " - Scheduled Appointment for " + visitPurpose + " at " + time + ".\n";
 //            String message = "Clinic Alert: ID:2021-POB-0143,Joenavic Bacting,CICT,IV-B - Scheduled Appointment for Eye Check-up at 10:31:20 PM.";
 //            String message = "Clinic Alert.. 123456789012345678901234567890123456789012345678901234567890";
             SMSService smsService = new SMSServiceImplementation();

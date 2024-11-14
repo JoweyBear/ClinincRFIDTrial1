@@ -19,7 +19,7 @@ public class SerialServiceImplementation implements SerialService {
     @Override
     public void writeToSerial(String msg) {
         try {
-            GlobalVar.port.writeBytes(msg.getBytes(), msg.length()); 
+            GlobalVar.port.writeBytes(msg.getBytes(), msg.length(), 1); 
                         System.out.println(msg);
         JOptionPane.showMessageDialog(null,"Message Sent!");
         } catch (Exception ex) {

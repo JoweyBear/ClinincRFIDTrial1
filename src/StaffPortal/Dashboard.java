@@ -117,7 +117,7 @@ public class Dashboard extends javax.swing.JFrame {
 //                cardLayout.show(contentPanel, "Report");
             }
         } else if (parentIndex == 4) {
-                     System.exit(0);
+                     dispose();
         } 
 //                else if (parentIndex == 5) {
 //            cardLayout.show(contentPanel, "Logs");

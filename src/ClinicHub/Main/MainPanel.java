@@ -15,6 +15,7 @@ public class MainPanel extends javax.swing.JPanel {
      */
     public MainPanel() {
         initComponents();
+
     }
 
     /**
@@ -26,14 +27,32 @@ public class MainPanel extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jLabel6 = new javax.swing.JLabel();
+        stts = new javax.swing.JLabel();
+        jPanel1 = new javax.swing.JPanel();
+        jPanel2 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
-        jLabel6 = new javax.swing.JLabel();
-        stts = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(107, 186, 225));
+        setBackground(new java.awt.Color(1, 79, 134));
+        setLayout(null);
+
+        jLabel6.setFont(new java.awt.Font("Segoe UI Historic", 0, 14)); // NOI18N
+        jLabel6.setText("Connection:");
+        add(jLabel6);
+        jLabel6.setBounds(10, 580, 73, 20);
+
+        stts.setFont(new java.awt.Font("Segoe UI Historic", 0, 14)); // NOI18N
+        add(stts);
+        stts.setBounds(80, 580, 376, 20);
+
+        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        add(jPanel1);
+        jPanel1.setBounds(0, 500, 435, 365);
+
+        jPanel2.setBackground(new java.awt.Color(137, 194, 217));
 
         jLabel1.setFont(new java.awt.Font("Calibri", 1, 48)); // NOI18N
         jLabel1.setText("Welcome to ");
@@ -47,32 +66,23 @@ public class MainPanel extends javax.swing.JPanel {
         jLabel4.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
         jLabel4.setText("Please press button of choice.");
 
-        jLabel6.setFont(new java.awt.Font("Segoe UI Historic", 0, 14)); // NOI18N
-        jLabel6.setText("Connection:");
-
-        stts.setFont(new java.awt.Font("Segoe UI Historic", 0, 14)); // NOI18N
-
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
-        this.setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(6, 6, 6)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(jLabel6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(stts, javax.swing.GroupLayout.PREFERRED_SIZE, 376, javax.swing.GroupLayout.PREFERRED_SIZE))
+        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
+        jPanel2.setLayout(jPanel2Layout);
+        jPanel2Layout.setHorizontalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 451, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 451, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel3)
                     .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 451, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(463, 463, 463))
+                .addContainerGap(33, Short.MAX_VALUE))
         );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addContainerGap(303, Short.MAX_VALUE)
+        jPanel2Layout.setVerticalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
+                .addContainerGap(70, Short.MAX_VALUE)
                 .addComponent(jLabel1)
                 .addGap(6, 6, 6)
                 .addComponent(jLabel2)
@@ -80,12 +90,11 @@ public class MainPanel extends javax.swing.JPanel {
                 .addComponent(jLabel3)
                 .addGap(6, 6, 6)
                 .addComponent(jLabel4)
-                .addGap(249, 249, 249)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(stts, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel6))
-                .addContainerGap())
+                .addGap(72, 72, 72))
         );
+
+        add(jPanel2);
+        jPanel2.setBounds(0, 110, 490, 360);
     }// </editor-fold>//GEN-END:initComponents
 
 
@@ -95,6 +104,8 @@ public class MainPanel extends javax.swing.JPanel {
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel6;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel2;
     public javax.swing.JLabel stts;
     // End of variables declaration//GEN-END:variables
 }
